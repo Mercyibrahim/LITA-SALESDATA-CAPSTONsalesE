@@ -72,7 +72,8 @@ Fron the data analysis carried out on the sales performance for all the regions,
 <img width="382" alt="SQL QUESTION 8 " src="https://github.com/user-attachments/assets/b90fe592-ca1a-4842-b635-5c2d48267923">
 
 ### SQL QUERIES AND excel formulars used
-```CREATE DATABASE SALES_DATA_CAPSTONE
+```
+    CREATE DATABASE SALES_DATA_CAPSTONE
 
 SELECT * FROM [dbo].[SALES DATA_-27027859]
 
@@ -173,8 +174,8 @@ WHERE MONTH(OrderDate) BETWEEN 10 AND 12
 GROUP BY Product
 HAVING SUM(Quantity)=0
 
-SELECT * FROM [dbo].[SALES DATA_]```
- 
+SELECT * FROM [dbo].[SALES DATA_]
+                                ```
 
 
 
