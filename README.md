@@ -1,6 +1,18 @@
 ## LITA-SALESDATA-CAPSTONE_PROJECT
 A project analysis on the sales performance on some products in the different regions in Nigeria
 ### PROJECT TOPIC:ANALYSIS ON SALES PERFORMANCE IN DIFFERENT REGIONS IN NIGERIA
+[PROJECT OVERVIEW](#PROJECT-OVERVIEW
+[DATA SOURCE](#DATA-SOURCE)
+[TOOLS USED](#TOOLS-USED)
+[KEY METRICS](#KEY-METRICS)
+[EXPLORATORY DATA ANALYSIS](#EXPLORATORY-DATA-ANALYSIS)
+[DEDUCTIONS AND RECOMMENDATIONS](#DEDUCTIONS-AND-RECOMMENDATIONS)
+[DATA VISUALISATION](#DATA-VISUALISATION)
+[DATA ANALYSIS](#DATA-ANALYSIS)  
+
+
+
+
 
 ### PROJECT OVERVIEW
 ---
@@ -11,7 +23,7 @@ a clear view of what works for the company, what products or region the company 
 ---
 The data was shared on my LMS canvas through the incubator hub to carrry out analysis as my project work to 
 completion of the 10 weeks class.
-### TOOLS USE
+### TOOLS USED
 ---
 
 - MICROSOFT EXCEL:
@@ -42,6 +54,7 @@ for data visualstions
   products which will result to increase in total revenue.
 
 ### DEDUCTIONS AND RECOMMENDATIONS
+---
 Fron the data analysis carried out on the sales performance for all the regions, it was seen that South region has the highest sales(927820) and the west region has the lowest total sell (300345).The products that generated the highest revenue for the set period of 2023 to 2024 is shoes while socks generated the lowest income between 2023 to 2024.from these findings , the company can make much production of shirt to the south region and fom the analysis shoes, gloves and socks are the best selling products and its aviseable for the company to increase its productions. 
 
 ### DATA VISUALISATION
