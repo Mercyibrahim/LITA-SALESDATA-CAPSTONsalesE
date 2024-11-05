@@ -71,6 +71,10 @@ Fron the data analysis carried out on the sales performance for all the regions,
 
 <img width="382" alt="SQL QUESTION 8 " src="https://github.com/user-attachments/assets/b90fe592-ca1a-4842-b635-5c2d48267923">
 
+### SQL QUERIES AND excel formulars used
+
+
+
 
 
 
