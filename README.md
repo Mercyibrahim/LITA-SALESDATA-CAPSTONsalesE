@@ -48,6 +48,7 @@ Fron the data analysis carried out on the sales performance for all the regions,
 <img width="522" alt="POWERBI VISUAL SALES DATA3" src="https://github.com/user-attachments/assets/47098d00-2076-478a-853c-6ba10f187eb5">
 
 - MICROSOFT EXCEL REORTS
+
 <img width="432" alt="AVERAGE SALES PER PRODUCT AND REVENUE BY REGION  EXCEL Q2" src="https://github.com/user-attachments/assets/8bbc2650-0bf2-4a2b-8ffc-8affef99e039">
 
 <img width="862" alt="EXCEL PIVOT CALCULATION" src="https://github.com/user-attachments/assets/fb99125b-4f19-4235-a9d1-c4bf9b1562ba">
