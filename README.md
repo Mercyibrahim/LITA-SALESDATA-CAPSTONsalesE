@@ -47,6 +47,7 @@ Fron the data analysis carried out on the sales performance for all the regions,
 
 <img width="522" alt="POWERBI VISUAL SALES DATA3" src="https://github.com/user-attachments/assets/47098d00-2076-478a-853c-6ba10f187eb5">
 
+- MICROSOFT EXCEL REORTS
 <img width="432" alt="AVERAGE SALES PER PRODUCT AND REVENUE BY REGION  EXCEL Q2" src="https://github.com/user-attachments/assets/8bbc2650-0bf2-4a2b-8ffc-8affef99e039">
 
 <img width="862" alt="EXCEL PIVOT CALCULATION" src="https://github.com/user-attachments/assets/fb99125b-4f19-4235-a9d1-c4bf9b1562ba">
@@ -55,7 +56,8 @@ Fron the data analysis carried out on the sales performance for all the regions,
 
 <img width="662" alt="EXCEL VISUALS FOR SALES DATA" src="https://github.com/user-attachments/assets/af35f3bd-57ca-4365-b000-87759d3098fd">
 
-
+- SQL SERVER RESULTS
+  
 <img width="445" alt="COUNT OF SALES IN REGION SQL SALES DATA" src="https://github.com/user-attachments/assets/84b7641b-e03c-4a9e-b3b5-5d3795c75f1a">
 
 <img width="570" alt="HIGHEST SELLING PRODUCT SQL Q3" src="https://github.com/user-attachments/assets/d91d65b6-b83d-4c61-a5e3-3c478ba6f7a9">
