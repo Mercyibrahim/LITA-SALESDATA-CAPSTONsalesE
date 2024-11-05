@@ -72,6 +72,119 @@ Fron the data analysis carried out on the sales performance for all the regions,
 <img width="382" alt="SQL QUESTION 8 " src="https://github.com/user-attachments/assets/b90fe592-ca1a-4842-b635-5c2d48267923">
 
 ### SQL QUERIES AND excel formulars used
+```CREATE DATABASE SALES_DATA_CAPSTONE
+
+SELECT * FROM [dbo].[SALES DATA_-27027859]
+
+-----QUESTION 1 TOTAL SALES FOR EACH PRODUCT CATEGORY
+
+SELECT PRODUCT,
+    SUM(total_sales) AS TOTAL_SALES
+	from 
+	[dbo].[SALES DATA_-27027859]
+Group by PRODUCT
+order by TOTAL_SALES DESC
+
+-----ADDING TOTAL SALES COLUMN TO THE TABLE
+
+ALTER TABLE [dbo].[SALES DATA_]
+ADD TOTAL_SALES bigint
+
+-----updatingthe table to fill in the total sales column
+
+update [dbo].[SALES DATA_]
+set Total_sales = Quantity * UnitPrice
+
+select * from [dbo].[SALES DATA_-]
+
+-----Questions TWO, number of sales transactions in each region----
+
+select
+  Region,
+  COUNT (*) AS NUMBER_OF_SALES_TRANSACTIONS
+  FROM [dbo].[SALES DATA_-27027859]
+  GROUP BY
+      Region
+  ORDER BY NUMBER_OF_SALES_TRANSACTIONS DESC
+
+  ----QUESTION 3 HIGHEST SELLING PRODUCTS BY TOTAL SALES VALUE
+
+  SELECT Top 1
+     PRODUCT,
+	 sum(Total_sales) As TOTAL_SALES_VALUE
+ FROM
+	 [SALES DATA_]
+ GROUP BY
+   PRODUCT
+   ORDER BY 
+   TOTAL_SALES_VALUE DESC
+ 
+ -----QUESTION 4---CALCULATE TOTAL REVENUE PER PRODUCT-----
+ SELECT
+  PRODUCT, SUM(Total_sales) as TOTAL_REVENUE_PER_PRODUCT
+  FROM [dbo].[SALES DATA_]
+  GROUP BY
+     PRODUCT
+ORDER BY
+  TOTAL_REVENUE_PER_PRODUCT DESC
+
+  ALTER TABLE [dbo].[SALES DATA_]
+  ADD OrderMonth nvarchar(50)
+  
+  UPDATE [dbo].[SALES DATA_]
+  SET OrderMonth = DATENAME(MONTH, OrderDate)
+
+
+  ALTER TABLE[dbo].[SALES DATA_]
+ ADD OrderYear int
+
+ UPDATE [dbo].[SALES DATA_]
+ SET OrderYear = Year(OrderDate)
+
+  SELECT *  from  [dbo].[SALES DATA_]
+
+ -----Q5 Calculate monthly sales totals for the current year(2024)--
+
+SELECT OrderMonth,
+SUM(total_sales) as monthly_sales_totals
+FROM [dbo].[SALES DATA_]
+WHERE OrderYear = 2024
+GROUP BY OrderMonth
+
+--- Q6 find the top 5 customers by total purchase amount
+SELECT Top 5 Customer_Id,SUM(Quantity) AS Total_Purchase
+FROM[dbo].[SALES DATA_]
+GROUP BY Customer_Id
+ORDER BY Total_Purchase DESC
+
+---Q7 calculate the percentage of total sales contributed by each region.
+SELECT Region, sum(TOTAL_SALES)AS REGION_SALES,
+ SUM(TOTAL_SALES)*100/(SELECT SUM(TOTAL_SALES) FROM[dbo].[SALES DATA_]
+ AS Percentagetotalsales
+ from [dbo].[SALES DATA_]
+GROUP BY Region
+ORDER BY 3 DESC
+
+
+--Q8 Identify products with no sales in the last quarter
+SELECT Product,SUM(Quantity) AS Sales
+FROM [dbo].[SALES DATA_]
+WHERE MONTH(OrderDate) BETWEEN 10 AND 12  
+GROUP BY Product
+HAVING SUM(Quantity)=0
+
+SELECT * FROM [dbo].[SALES DATA_]```
+ 
+
+
+
+
+
+
+
+
+
+
 
 
 
