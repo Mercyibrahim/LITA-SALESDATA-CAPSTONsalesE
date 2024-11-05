@@ -10,7 +10,7 @@ The data was shared on my LMS canvas through the incubator hub to carrry out ana
 completion of the 10 weeks class.
 ### TOOLS USED
 
--MICROSOFT EXCEL
+- MICROSOFT EXCEL:
 
 1. For initial data cleaning
 
@@ -18,11 +18,11 @@ completion of the 10 weeks class.
 
 3. For Sales report
 
-- SQL SERVER
+- SQL SERVER :
 
   Used sql to write queries to get results
 
-- PowerBI
+- PowerBI:
   
 for data visualstions
 
