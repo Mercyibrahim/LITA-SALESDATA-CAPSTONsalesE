@@ -77,14 +77,14 @@ Fron the data analysis carried out on the sales performance for all the regions,
   CREATE DATABASE SALES_DATA_CAPSTONE
 
 
-SELECT * FROM [dbo].[SALES DATA_-27027859]
+SELECT * FROM [dbo].[SALES DATA_]
 
 -----QUESTION 1 TOTAL SALES FOR EACH PRODUCT CATEGORY
 
 SELECT PRODUCT,
     SUM(total_sales) AS TOTAL_SALES
 	from 
-	[dbo].[SALES DATA_-27027859]
+	[dbo].[SALES DATA_]
 Group by PRODUCT
 order by TOTAL_SALES DESC
 
